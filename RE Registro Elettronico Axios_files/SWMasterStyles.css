@@ -1,0 +1,689 @@
+﻿/* 
+    Axios Master Page CSS file
+    (c) Copyright Axios Italia Service 2006
+*/
+
+/* Overall Page */
+
+body
+{
+    margin: 0;
+    padding-bottom: 2em;
+    background-color: #FFFFFF;
+    /*color: #000000;*/
+    color: Navy; /* colore predefinito di tutta la pagina */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+/*    border-top: 2px solid #B51032; */
+}
+
+/*
+.tableAlu
+{
+	border-left:1px solid #c6c6c6;
+	border-top:1px solid #c6c6c6;
+	border-bottom:1px solid #c6c6c6;
+	border-collapse: collapse;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color:navy;
+	width: 150px;
+}
+.tableAlu td,th
+{
+	padding:1px 3px
+}
+.tableAlu td
+{
+	text-align:left;
+	font-size: 8pt;    	
+}
+.tableAlu th
+{
+	background-color:gray;
+	color:White;
+	font-weight:bold;
+	text-align: center; 
+	font-size: 8pt;
+	height: 31px;
+}
+.tableAlu tr.odd td,tr.odd th
+{
+	background: #D5E4FF
+}
+.tableAlu caption
+{
+	font-weight: bold;
+	font-size: 8pt;    	
+	color: navy;
+	padding: 1px 3px 1px
+} 
+.tableVoti
+{
+	border: 1px solid #c6c6c6;
+	border-collapse: collapse;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color:navy;
+}
+.tableVoti td,th
+{
+	padding: 1px 3px
+}
+.tableVoti td.voti
+{
+	text-align:center;
+	font-size: 8pt;    		
+	width:15px;
+	height: 13px;
+}
+.tableVoti td.assenze
+{
+	text-align:center;
+	font-size: 8pt;    			
+	width:25px;
+	height: 13px;
+}
+.tableVoti th
+{
+	text-align:left;
+	background-color:gray;
+	color:White;
+}
+.tableVoti tr.odd td,tr.odd th
+{
+	background: #D5E4FF
+}
+.tableVoti caption
+{
+	font-weight:bold;
+	font-size: 8pt;    			
+	color: navy;
+} 
+.input 
+{
+    border: 0px;
+    background: transparent;
+    text-align:center;
+	font-size: 8pt;    
+    color:navy;
+    width: 15px; 
+    height: 13px;
+}
+
+.tableAluStats
+{
+	border-left:1px solid navy;
+	border-top:1px solid navy;
+	border-bottom:1px solid navy;
+	border-collapse: collapse;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color:navy;
+	width: 150px;
+}
+.tableAluStats td,th
+{
+	padding:1px 3px
+}
+.tableAluStats td
+{
+	text-align:left;
+}
+.tableAluStats th
+{
+	background-color:gray;
+	color:White;
+	font-weight:bold;
+	text-align: center; 
+	height: 31px;
+}
+.tableAluStats tr.odd td,tr.odd th
+{
+	background:  #FF9933;
+}
+.tableAluStats caption
+{
+	font-weight:bold;
+	color: navy;
+} 
+.tableStats
+{
+	border: 1px solid navy;	
+	border-collapse: collapse;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color:navy;
+}
+.tableStats td,th
+{
+	padding:1px 3px
+}
+.tableStats td.StatsCell
+{
+	text-align:center;
+	font-size: 8pt;
+	width:45px;
+	height: 13px;
+}
+.tableStats th
+{
+	text-align:center;
+	background-color:gray;
+	color:White;
+	height: 13px;
+}
+.tableStats tr.odd td,tr.odd th
+{
+	background: #FF9933;
+}
+.tableStats caption
+{
+	font-weight:bold;
+	color: navy;
+} 
+.inputStats 
+{
+    border: 0px;
+    background: transparent;
+    text-align:center;
+	font-size: 8pt;    		    
+    color:navy;
+    width: 45px; 
+    height: 13px;
+}
+
+.ListBoxStats 
+{
+    border: 0px;
+    background: transparent;
+    text-align:center;
+    color:navy;
+    width: 200px; 
+    height: 15px;
+    font-size:8pt;
+}
+*/
+	
+/*
+table
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: Navy; 
+	font-size: 10pt;
+	margin: 0 0 0 0;
+}
+*/
+
+/* Header Section */
+
+#header
+{/*
+    border-top: 3px solid #B51032;
+    border-bottom: 1px dotted #B51032;
+    height: 3em;
+*/
+}
+#header .title
+{
+    font: 190% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+    color: black;
+    background-color: transparent;
+    float: left;
+    margin-right: 2em;
+    margin-top: 0.3em;
+    margin-left: .8em;
+    margin-bottom: 0em;
+}
+
+/*
+#header a:link, a:visited
+{
+    color: #B51032;
+}
+*/
+
+/* Navigation 
+
+#navigation
+{
+    width: 200px;
+    top: 5em;
+    left: 1em;
+    width: 13em;
+    position: absolute;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+#navigation ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navigation li
+{
+    border-bottom: 1px solid #ED9F9F;
+}
+#navigation li a
+{
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    border-left: 12px solid #711515;
+    border-right: 1px solid #711515;
+    background-color: #B51032;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#navigation li a:hover
+{
+    background-color: #711515;
+    color: #FFFFFF;
+}
+#navigation ul ul
+{
+    margin-left: 12px;
+}
+#navigation ul ul li
+{
+    border-bottom: 1px solid #711515;
+    margin: 0;
+    background-color: #ED9F9F;
+    color: #711515;
+}
+#navigation ul ul a:link, #navigation ul ul a:visited
+{
+    background-color: #ED9F9F;
+    color: #711515;
+}
+#navigation ul ul a:hover
+{
+    background-color: #711515;
+    color: #FFFFFF;
+}
+
+*/
+/* Contents */
+
+#contentHeader
+{
+    text-align: center;
+    font: 100% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+    line-height: normal;
+}
+
+#contentHeader table
+{
+    font-size: 100%;
+}
+
+#contentSide
+{
+    text-align: left;
+    font: 80% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+    /*position: absolute;*/
+    /*margin-top: 2mm;
+    margin-left: 2mm;*/
+    /*width: 80mm;*/
+}
+#contentSide h1
+{
+    font: 150% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+}
+#contentSide h6
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#contentSide h3
+{
+    font: 100% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;	
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#contentSide p
+{
+    font-size: 100%;
+    /*line-height: 1.6em;*/
+}
+
+#contentSide ul
+{
+    font-size: 100%;
+    /*line-height: 1.6em;*/
+}
+
+#contentSide  table
+{
+    font-size: 100%;
+}
+
+
+#contentBody
+{
+    text-align:left;
+    font-size: 70%;
+    line-height: 2.1em; /*1.6em; rel 1.50 */
+    text-decoration: none;
+    /*
+    position: absolute;    
+    margin-top: 2mm;
+    margin-left: 85mm;
+	*/
+}
+
+h1
+{
+    font: 150% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+    text-decoration: none;
+}
+#contentBody p
+{
+    font-size: 100%;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+
+#contentBody ul
+{
+    font-size: 100%;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+
+
+#contentBody table
+{
+	font-size: 100%;
+}
+
+
+#contentFooter
+{
+    background-color: #FFFFFF;
+    font-size: 60%;
+    text-align: left;
+    /*line-height: 1.6em;*/
+
+    /*
+    position: absolute;    
+    margin-top: 120mm;
+    margin-left: 2mm;
+*/
+}
+
+#contentFooter table
+{
+    font-size: 100%;
+}
+
+
+#contentToolBar
+{
+    /*position: absolute;*/
+    /*margin-top: 2mm;
+    margin-left: 2mm;*/
+    /*width: 80mm;*/
+    font: 80% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;    
+    text-align: left;
+}
+#contentToolBar h1
+{
+    font: 80% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+}
+#contentToolBar p
+{
+    font-size: 50%;
+}
+
+#contentToolBar table
+{
+    font-size: 100%;
+}
+
+
+#contentMenu
+{
+    /*background-color: Aqua;*/
+    font: 70% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;    
+		margin-top: 0px;
+}
+
+#contentMenu table
+{
+    font-size: 100%;
+}
+
+DIV#rbox 
+{
+	position:relative;
+	margin: 0 auto;
+	width: 640px;
+	background-color:#E0E0E0;
+	height:200px;
+	min-height:200px;
+	/*height:auto !important;
+	height:80%;
+	min-height:80%;*/
+}
+
+DIV#box-title
+{
+	color: #FFFFFF;
+	background-color:#C0C0C0;
+	padding:10px;
+   	font:bold 11pt Arial, Helvetica, sans-serif;
+}
+
+DIV#box-main
+{
+	position:relative;
+	padding-left:10px;
+   	padding-right:10px;
+}
+
+DIV#box-img
+{
+	position:absolute;
+	top:10;
+	left:0;
+	width:80px;
+	height:100px;
+}
+
+DIV#box-text
+{
+	padding:10px 2px 64px 100px;
+}
+
+.topleft,.topright,.bottomleft,.bottomright{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-repeat: no-repeat;
+}
+
+.topleft {
+	/*background-image: url(Secret/Images/Style_TopLeft.png);*/
+	top: 0;	left: 0;
+}
+.topright {
+	/*background-image: url(Secret/Images/Style_TopRight.png);*/
+	top: 0;	right: 0;
+}
+.bottomleft {
+	/*background-image: url(Secret/Images/Style_BottomLeft.png);*/
+	bottom: -3;	left: 0;
+}
+.bottomright {
+	/*background-image: url(Secret/Images/Style_BottomRight.png);*/
+	bottom: -3;	right: 0;
+}
+
+.Owner0
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #804000; 
+	font-size: x-small;
+}
+
+.Button
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:normal;
+	color:Navy;	
+	width: 100px;
+	height: 20px;	
+	z-index: 100; 
+	position: relative; 
+	top: 0px;
+	left: 0px;	
+	vertical-align:top;
+}
+
+.ButtonMenu
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:normal;
+	color:#434576;
+	width: 50px;
+	height: 50px;	
+	z-index: 100; 
+	left: 0px;
+	top: 0px;
+	position: relative; 	
+	vertical-align:top;
+}
+
+.LabelSide
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt; 
+	font-weight:Normal;
+	font-style:normal; 
+	color:DarkBlue;
+}
+
+.LabelBottom
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt; 
+	font-weight:Normal;
+	font-style:normal; 
+}
+
+.LabelBody0
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt; 
+	font-weight:normal;
+	font-style:normal; 
+	color:DarkBlue;
+	width: 510px;
+}
+
+.LabelBody
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt; 
+	font-weight:bold;
+	font-style:normal; 
+	color:DarkBlue;
+	width: 510px;
+}
+
+.LabelMenu
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt; 
+	font-weight:normal;
+	font-style:normal;
+}
+
+.LabelMenuPath
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt; 
+	font-weight:normal;
+	font-style:normal;
+	color:ActiveCaption;	
+}
+
+.LabelRE
+{
+  font-weight:bold;
+  font-size:small;
+  color: #909090;
+  text-align:left;
+  vertical-align:middle;
+}
+
+
+.LabelRETitle
+{
+  font-weight:bold;
+  font-size:small;
+  /*/color: #909090;*/
+  color: #96BD0D;
+  text-align:center;
+}
+
+.TextGeneral
+{
+    text-align: Left;
+    font: 100% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+	border-style:none;
+}
+
+.TextNumericRO
+{
+    text-align: Center;
+    font: 100% Arial, Helvetica, Georgia, "Times New Roman" , Times, serif;
+    color: Navy;
+	background-color:Silver; 
+	border-style:none;
+}
+
+
+.LabelWarning
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt; 
+	font-weight:Normal;
+	font-style:normal; 
+	color:Red;
+}
+
+
+/* Dal sito Axios */
+.cellText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000066;
+}
+.cellTextBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000066;
+	font-weight: bold;
+}
+.bodyText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000066;
+}
+.bodyTextBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000066;
+	font-weight: bold;
+}
+
+
+
+
+
+
